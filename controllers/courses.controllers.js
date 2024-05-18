@@ -15,7 +15,7 @@ const getAllCourses = async (req, res) => {
     // Pagination
     const courses = await Course.find().limit(limit).skip(skip)
 
-    res.status(200).json({ status: SUCCESS, data: { courses: courses } })
+    res.status(200).json({ status: SUCCESS, data: { coursessssssss: courses } })
 }
 
 
